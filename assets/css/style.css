@@ -1,0 +1,127 @@
+@import url('./reset.css');
+
+/***** header ****/
+.subject{
+    background: rgb(67, 67, 67);
+}
+.subject p{
+    color: rgb(65, 180, 65);
+    padding: 8%;
+    margin: 0;
+    text-align: center;
+    font-size: 25px;
+}
+.subject .subject-big{
+    font-size: 70px;
+}
+.nav ul{
+    text-shadow: 1px 2px 4px black
+}
+.nav li{
+    list-style-type: none;
+    float: left;
+    padding:2%;
+    color: white;
+    font-size: 30px;
+}
+.nav li a.choose:hover{
+    background-color: green;
+    padding: 30%;
+}
+.nav li a:hover{
+    cursor: pointer;
+}
+.header .menu{
+    border: 1px solid rgb(78, 185, 78);
+    margin: 2%;
+    text-align: center;
+    border-radius: 25px;
+    background: rgb(78, 185, 78);
+}
+.nav li:first-child{
+    background-color: green;
+}
+.banner{
+    background-image: url("../images/pics01.jpg");
+    height: 440px;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/***** content *****/
+.container{
+    width: 80%;
+    height: auto;
+    padding: 15px 20px;
+    margin: 0 auto;
+}
+
+.main-content{
+    width:70%;
+    float: right;
+    text-align: justify;
+}
+h2:hover{
+    text-decoration: underline;
+}
+.sidebar{
+    width:30%;
+    float:left;
+}
+ul li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.sidebar ul li a{
+    text-decoration: none;
+    color: rgb(141, 139, 139);
+    font-size: 15px;
+}
+.sidebar p{
+    margin:2%;
+}
+.sidebar ul li a:hover{
+    text-decoration: underline;
+}
+h6{
+    margin-bottom: 15px;
+}
+h2, hr{
+    margin-top: 20px;
+}
+h3{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    color: rgb(4, 176, 4);
+}
+.sidebar hr{
+    width:70%;
+    margin-bottom: 16px;
+    color: rgb(211, 208, 208);
+}
+.main-content p{
+    font-size: 21px;
+}
+h2{
+    color: rgb(2, 187, 2);
+}
+/**** footer ****/
+
+
+.footer{
+    background: rgb(67, 67, 67);;
+}
+.footer p{
+    height: 100px;
+    text-align: center;
+    margin-top: 1%;
+    padding: 1%;
+    color: rgb(89, 237, 89);
+}
+.bold{
+    text-decoration: underline;
+}
+@font-face {
+    font-family: yekan;
+    src: url('../fonts/Yekan.woff');
+}
